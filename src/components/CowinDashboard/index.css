@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  padding-left: 100px;
+  width: 100vw;
+  background-color: #161625;
+  min-height: 100vh;
+}
+.logo-container {
+  display: flex;
+  align-items: flex-start;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+.logo-head {
+  color: #2cc6c6;
+  line-height: 25px;
+  font-size: 25px;
+  font-family: roboto;
+}
+.main-head {
+  color: #cbd5e1;
+  font-size: 26px;
+  font-family: roboto;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.failure-logo {
+  margin-top: 50px;
+  width: 550px;
+}
+.failure-msg {
+  color: #ffffff;
+  font-family: roboto;
+  text-align: center;
+}
